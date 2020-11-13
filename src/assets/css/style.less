@@ -1,0 +1,75 @@
+.page-content {
+    background: #ffff;
+    padding-top: 100px;
+}
+
+.or-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0px 20px;
+}
+
+.or-line::before,
+.or-line::after {
+    content: "";
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: #e0e0e0;
+    height: 1px;
+}
+
+.or {
+    padding: 4px 15px;
+    text-align: center;
+}
+
+.celo-address-input--container {
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid #cecaca;
+    border-radius: 5px;
+}
+
+input.celo-address-input {
+    height: 45px;
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 51px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+button.celo-copy-address {
+    position: absolute;
+    right: 0;
+    border: none;
+    height: 100%;
+    width: 44px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    border-left: 1px solid #cecaca;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+button.celo-copy-address:hover {
+    cursor: pointer;
+    background: rgb(200 255 228);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

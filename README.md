@@ -1,4 +1,4 @@
-# tig
+# Celo ecommerce | Paychant
 
 ## Project setup
 ```

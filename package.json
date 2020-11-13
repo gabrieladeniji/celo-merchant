@@ -1,5 +1,10 @@
 {
-  "name": "tig",
+  "name": "celo.ecommerce",
+  "author": {
+    "name": "Moses & Gabriel",
+    "email": "mosesadeniji19@gmail.com & gabrieladeniji26@gmail.com",
+    "url": "http://paychant.com"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +14,35 @@
   },
   "dependencies": {
     "vue": "^2.5.21",
-    "vue-router": "^3.0.1"
+    "web3": "^1.2.6",
+    "less": "^3.9.0",
+    "vuex": "^3.5.1",
+    "jquery": "^3.4.1",
+    "jshint": "^2.10.1",
+    "vuetify": "^1.3.0",
+    "v-tooltip": "2.0.3",
+    "vue-router": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "qrcode.vue": "^1.7.0",
+    "sass-loader": "^7.1.0",
+    "less-loader": "^4.1.0",
+    "vue-clipboard2": "^0.3.1",
+    "@celo/contractkit": "0.4.14",
+    "@fortawesome/fontawesome-free": "^5.13.0"
   },
   "devDependencies": {
+    "stylus": "^0.54.5",
+    "eslint": "^5.8.0",
+    "babel-eslint": "^10.0.1",
+    "stylus-loader": "^3.0.1",
+    "vuetify-loader": "^1.0.5",
+    "@vue/cli-service": "^3.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "pretty-checkbox-vue": "^1.1.9",
+    "vue-template-compiler": "^2.5.21",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-cli-plugin-vuetify": "^0.4.6"
   },
   "eslintConfig": {
     "root": true,

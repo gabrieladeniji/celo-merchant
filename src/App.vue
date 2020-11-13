@@ -1,31 +1,46 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <v-app>
+        <v-content>
+            <router-view></router-view>
+        </v-content>
+    </v-app>
 </template>
 
+<script>
+   export default {
+      name: "App",
+      data() {
+         return {};
+      }
+   };
+</script>
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+    #app {
+        width: 100%;
+        height: 100%;
+        /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
+    }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+    .application--wrap {
+        min-height: auto !important;
+    }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+    .theme--light.application {
+        background: #fafafa;
+        color: rgba(64, 61, 61, 0.87);
+    }
+
+    a {
+        color: inherit !important;
+    }
+
+    .Network_color_active {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    .Network_color_inactive {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
 </style>
