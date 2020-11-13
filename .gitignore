@@ -23,6 +23,7 @@ dist
 *.sw*
 
 # Firebase
+.firebase
 .firebaserc
 firebase.json
 firestore.indexes.json
