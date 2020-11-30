@@ -1,5 +1,9 @@
 # Celo ecommerce | Paychant
 
+
+##### Link to the Ecommerce platform
+[https://celo-merchant.paychant.com](https://celo-merchant.paychant.com)
+
 ## Project setup
 ```
 npm install
@@ -26,4 +30,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Vuejs](https://cli.vuejs.org/config/)
